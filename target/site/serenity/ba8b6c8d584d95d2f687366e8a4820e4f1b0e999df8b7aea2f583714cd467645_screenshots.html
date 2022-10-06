@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="77527c3388b326e1e9b67e81ce04b2e4d63d533e5d196bb24fe6cd956dce2664.html">Sign Up Page</a></span>
+                > <span class="truncate-60"><a
+                    href="ba8b6c8d584d95d2f687366e8a4820e4f1b0e999df8b7aea2f583714cd467645.html">Access to the sign up form page from the main page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-10-2022 21:53</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Sign Up Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to create a new account to become a member of uTest.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Access to the sign up form page from the main page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0c9818e6c4589a2b497263e51accf706fc422d87186a0b17a573f13780357661.png" title=" Given the user are at uTest home page" width="1920"/>
+                <img src="0c9818e6c4589a2b497263e51accf706fc422d87186a0b17a573f13780357661.png" title=" User open main page" width="1920"/>
+                <img src="0c9818e6c4589a2b497263e51accf706fc422d87186a0b17a573f13780357661.png" title=" User opens the U test page" width="1920"/>
+                <img src="0c9818e6c4589a2b497263e51accf706fc422d87186a0b17a573f13780357661.png" title=" User open main page (completed)" width="1920"/>
+                <img src="0c9818e6c4589a2b497263e51accf706fc422d87186a0b17a573f13780357661.png" title=" Given the user are at uTest home page (completed)" width="1920"/>
+                <img src="21380f772c73eed63b400a1b8b8c4351d01511bd9546ba39f7329d2ba662fc29.png" title=" When clicks on the Join Today button" width="1920"/>
+                <img src="21380f772c73eed63b400a1b8b8c4351d01511bd9546ba39f7329d2ba662fc29.png" title=" User click join button" width="1920"/>
+                <img src="21380f772c73eed63b400a1b8b8c4351d01511bd9546ba39f7329d2ba662fc29.png" title=" User clicks on Join Today Button" width="1920"/>
+                <img src="21380f772c73eed63b400a1b8b8c4351d01511bd9546ba39f7329d2ba662fc29.png" title=" User click join button (completed)" width="1920"/>
+                <img src="21380f772c73eed63b400a1b8b8c4351d01511bd9546ba39f7329d2ba662fc29.png" title=" When clicks on the Join Today button (completed)" width="1920"/>
+                <img src="5ce851f92639406dc006ebea169633d153ac59218cd4dc844dbce02fd4bcaba6.png" title=" Then user get redirected to the sign up form and fill form" width="1920"/>
+                <img src="5ce851f92639406dc006ebea169633d153ac59218cd4dc844dbce02fd4bcaba6.png" title=" User sign up form" width="1920"/>
+                <img src="5ce851f92639406dc006ebea169633d153ac59218cd4dc844dbce02fd4bcaba6.png" title=" User enters 'Douglas' into First Name Field" width="1920"/>
+                <img src="04c6ea5021e1b483b8337d000ffe44a5d4b13772dcfaf84b4db39e54d9924e5c.png" title=" User enters 'Marin' into Last Name Field" width="1920"/>
+                <img src="e92fed7ff21aed84a581fbcaeacad3b4867b84a78e885b5268a51ea1370c7485.png" title=" User enters 'doug_1@dumpmail.com' into Email Adress Field" width="1920"/>
+                <img src="46c7ff0ca53c81ae0dcaf4fd2b7180de83a8a797e48a3985990832cde6fc26d4.png" title=" User clicks on Date of Birth Month" width="1920"/>
+                <img src="c86ffef39a4bf5592d5105378c3f8106b925a3947bf362c0ba43bd4922431f3a.png" title=" User clicks on Date of Birth Day" width="1920"/>
+                <img src="3e112faca98a11ba7476064d2b29a4098480b23fecf234476b25ac68c28a0f09.png" title=" User clicks on Date of Birth Year" width="1920"/>
+                <img src="fe972848ce4d5d5160919e59dea4386218efec9208380a07549c9aa6be11c360.png" title=" User clicks on Next Location part one Button" width="1920"/>
+                <img src="4ea20e93fa9be6c54aa39f83222cc55c87eef83e707fda2b0e3c62570137915b.png" title=" User enters '123' into Zip code" width="1920"/>
+                <img src="58e2019ab154538a3f647d5dc8a4b9316866d7aca1d6a258f0ae64067040517d.png" title=" User clicks on Next Location part one Button" width="1920"/>
+                <img src="25b2a95ee8bc10cd4acd616b63b300922ca493a3fd8e3609fa91c663c8b0f57f.png" title=" User clicks on Next Location part one Button" width="1920"/>
+                <img src="5012534d43b229fd7d4d756d8f9079ccbc44777fb1b666e2e62c056b091eec78.png" title=" User enters 'ADiguhkjnsf2387!' into Password Field" width="1920"/>
+                <img src="8e0fdb94b318d13386aa0039b9fa16bd2cbaaeef66ec66802782ed8f519da4a7.png" title=" User enters 'ADiguhkjnsf2387!' into Confirm Password Field" width="1920"/>
+                <img src="bc6075445f3c232d851fc419e1f34d684f3926d01fb71f5ef11403310d5a7437.png" title=" User clicks on Terms and Guidelines" width="1920"/>
+                <img src="22defd602d202b5382fa7e6a460454966dfdd02b4a30e50f14df90e44ae31020.png" title=" User clicks on Privacy &amp; Security Policy" width="1920"/>
+                <img src="ca21d4483edf084d733119ae667796c0085be2f5da44add4f9fcb7a243c6eac6.png" title=" User clicks on Next Location part one Button" width="1920"/>
+                <img src="ca21d4483edf084d733119ae667796c0085be2f5da44add4f9fcb7a243c6eac6.png" title=" User sign up form (completed)" width="1920"/>
+                <img src="ca21d4483edf084d733119ae667796c0085be2f5da44add4f9fcb7a243c6eac6.png" title=" Then user get redirected to the sign up form and fill form (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
